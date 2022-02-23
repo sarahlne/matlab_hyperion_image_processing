@@ -34,6 +34,9 @@ function [EXBW_Im, BW_Im, DW_Im, X, Y, Im_0] = GetCentroids(exp_Im, save_path)
         indexes = cell2mat(CCBW.PixelIdxList(n));
         L = length(indexes);
         indexes_to_remove = [];
+        %if the region contain only two point we keep one point out of two
+        %if the region contain more than two point (n) we retrieve n-1
+        %point of the region and keep only one point
         if L == 2
             number_indexes_to_drop = 1;
             indexes_to_remove = indexes(randperm(length(indexes),number_indexes_to_drop));
