@@ -42,7 +42,6 @@ Application of a gaussian filter: Next, a gaussian filter is applied on the imag
 
 The result of all pre processing operation on each marker are registered in the **outputs/pre_processing** folder.
 
-![Alt text](./illustrations/exp_CD31_tiff.png "Comparison")
 
 ### GetCentroids
 
