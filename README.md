@@ -58,8 +58,8 @@ The position corresponding to high intensity values are then set to 0 in the ini
 
 The resulting image is registered in the **outputs/centroids** folder.
 
-![Alt text](./illustrations/centroids1.png "Comparison")
-![Alt text](./illustrations/centroids2.png "Comparison")
+![Centroids](./illustrations/centroids1.png "Comparison")
+![Centroids zoom](./illustrations/centroids2.png "Comparison")
 
 ### saveLocations
 
@@ -72,7 +72,7 @@ Input files: Input image processed by the IMC pipeline, X and Y coordinates from
 
 The main goal is to display the same region of images and overlay centroids position given by the two approaches as well as the cell segmentations.
 
-![Alt text](./illustrations/comparison.png "Comparison")
+![Comparison](./illustrations/comparison.png "Comparison")
 
 ## Outputs
 The output folder is divided by the type of input image used:
