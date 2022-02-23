@@ -42,6 +42,8 @@ Application of a gaussian filter: Next, a gaussian filter is applied on the imag
 
 The result of all pre processing operation on each marker are registered in the **outputs/pre_processing** folder.
 
+![Alt text](./illustrations/exp_CD31_tiff.png "Comparison")
+
 ### GetCentroids
 
 This function is used on the input filtered image to retrieve the cells centroids position.
@@ -56,6 +58,9 @@ The position corresponding to high intensity values are then set to 0 in the ini
 
 The resulting image is registered in the **outputs/centroids** folder.
 
+![Alt text](./illustrations/centroids1.png "Comparison")
+![Alt text](./illustrations/centroids2.png "Comparison")
+
 ### saveLocations
 
 Location of cells centroids are registered in a csv file in the **outputs/centroids** folder
@@ -66,6 +71,8 @@ This function is used to display in a same picture a small region of the input i
 Input files: Input image processed by the IMC pipeline, X and Y coordinates from the IMC pipeline, input image processed by the matlab code, X and Y coordinates from the matlab code.
 
 The main goal is to display the same region of images and overlay centroids position given by the two approaches as well as the cell segmentations.
+
+![Alt text](./illustrations/comparison.png "Comparison")
 
 ## Outputs
 The output folder is divided by the type of input image used:
