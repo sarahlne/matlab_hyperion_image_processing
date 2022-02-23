@@ -42,7 +42,7 @@ Application of a gaussian filter: Next, a gaussian filter is applied on the imag
 
 The result of all pre processing operation on each marker are registered in the **outputs/pre_processing** folder.
 
-
+![Alt text](./illustrations/exp_CD31_tiff.png "pre processing")
 ### GetCentroids
 
 This function is used on the input filtered image to retrieve the cells centroids position.
@@ -57,8 +57,8 @@ The position corresponding to high intensity values are then set to 0 in the ini
 
 The resulting image is registered in the **outputs/centroids** folder.
 
-![Centroids](./illustrations/centroids1.png "Comparison")
-![Centroids zoom](./illustrations/centroids2.png "Comparison")
+![Centroids](./illustrations/centroids1.png "Centroids")
+![Centroids zoom](./illustrations/centroids2.png "Centroids zoom")
 
 ### saveLocations
 
